@@ -763,4 +763,12 @@ declare module 'azdata' {
 		 */
 		headerFilter?: boolean,
 	}
+
+	export interface TextColumnOption {
+		/**
+		 * Specifies column that will provide icon css value.
+		 * iconCssClassColumn will not be displayed as a separate column, instead its value will be interpreted as a icon css value for the text column.
+		 */
+		iconCssClassColumn?: string
+	}
 }
